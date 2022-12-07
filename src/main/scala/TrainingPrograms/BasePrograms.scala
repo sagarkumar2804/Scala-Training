@@ -12,7 +12,7 @@ object BasePrograms {
     res
   }
 
-  val evenOdd_v2: Int => String = (x:Int)=> if(x%2 == 0) "even" else "odd"
+  val evenOdd_v2: Int => String = (x:Int) => if(x%2 == 0) "even" else "odd"
 
   /**
    * Factorial of a number using while loop.
