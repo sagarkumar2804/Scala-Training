@@ -1,5 +1,7 @@
 package Scala99Problems
 
+import TrainingContent.ApplyExample.Animal
+
 import scala.annotation.tailrec
 import scala.collection.mutable.ListBuffer
 
@@ -45,8 +47,10 @@ object LastEle extends App{
     inner(l,None)
   }
 
+
   println(get_Last(List(1,2,3,4,5)))
   println(get_Last(List("AD","BC","GTY","HY")))
   println(get_Last(List('A','d','b','c')))
   println(get_Last(List(1.2,3.8,5.7,89.987)))
+
 }
